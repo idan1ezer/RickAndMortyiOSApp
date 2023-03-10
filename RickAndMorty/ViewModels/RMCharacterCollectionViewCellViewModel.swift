@@ -18,7 +18,7 @@ final class RMCharacterCollectionViewCellViewModel {
         characterImageUrl: URL?
     ) {
         self.characterName = characterName
-        self.characterStatusText = characterStatusText
+        self.characterStatusText = "Status: \(characterStatusText)"
         self.characterImageUrl = characterImageUrl
     }
     
